@@ -10520,10 +10520,14 @@ section.resume-section .resume-section-content {
   }
 }
 
-.svg-inline--fa:hover{
+.svg-inline--fa:hover {
   color: var(--primary);
 }
 
-.fa-ul li:hover{
+.fa-ul li:hover {
   color: var(--primary);
+}
+
+.resume {
+  color: red !important;
 }
