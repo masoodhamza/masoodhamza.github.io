@@ -44,26 +44,7 @@
         </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <div class="float-right d-none d-lg-block">
-            <!--
-                PeoplePerHour Profile Widget
-                The div#pph-hire me is the element
-                where the iframe will be inserted.
-                You may move this element wherever
-                you need to display the widget
-            -->
-            <div id="pph-hireme"></div>
-            <script type="text/javascript">
-                (function (d, s) {
-                    var useSSL = 'https:' == document.location.protocol;
-                    var js, where = d.getElementsByTagName(s)[0],
-                        js = d.createElement(s);
-                    js.src = (useSSL ? 'https:' : 'http:') + '//www.peopleperhour.com/hire/3044729969/5908196.js?width=300&height=255&orientation=vertical&theme=dark&hourlies=734884&rnd=' + parseInt(Math.random() * 10000, 10);
-                    try { where.parentNode.insertBefore(js, where); } catch (e) { if (typeof console !== 'undefined' && console.log && e.stack) { console.log(e.stack); } }
-                }(document, 'script'));
-            </script>
-        </div>
+    <div class="container-fluid p-0">        
         <!-- About-->
         <section class="resume-section" id="about">
             <div class="resume-section-content">
